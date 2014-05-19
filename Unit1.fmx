@@ -1,0 +1,191 @@
+object Form1: TForm1
+  Left = 0
+  Top = 0
+  Caption = 'Form1'
+  ClientHeight = 548
+  ClientWidth = 320
+  FormFactor.Width = 320
+  FormFactor.Height = 480
+  FormFactor.Devices = [Desktop]
+  DesignerMobile = True
+  DesignerWidth = 320
+  DesignerHeight = 568
+  DesignerDeviceName = 'iPhone5'
+  DesignerOrientation = 0
+  DesignerOSVersion = '7'
+  object Edit1: TEdit
+    Touch.InteractiveGestures = [LongTap, DoubleTap]
+    Align = Top
+    TabOrder = 1
+    Text = '0'
+    TextSettings.HorzAlign = Trailing
+    Width = 320.000000000000000000
+    Height = 30.000000000000000000
+  end
+  object Button1: TButton
+    Height = 44.000000000000000000
+    Position.Y = 224.000000000000000000
+    TabOrder = 20
+    Text = '0'
+    Width = 153.000000000000000000
+    OnClick = Button1Click
+  end
+  object Button2: TButton
+    Height = 44.000000000000000000
+    Position.Y = 176.000000000000000000
+    TabOrder = 18
+    Text = '1'
+    Width = 73.000000000000000000
+    OnClick = Button1Click
+  end
+  object Button3: TButton
+    Height = 44.000000000000000000
+    Position.X = 80.000000000000000000
+    Position.Y = 176.000000000000000000
+    TabOrder = 5
+    Text = '2'
+    Width = 73.000000000000000000
+    OnClick = Button1Click
+  end
+  object Button4: TButton
+    Height = 44.000000000000000000
+    Position.X = 160.000000000000000000
+    Position.Y = 176.000000000000000000
+    TabOrder = 4
+    Text = '3'
+    Width = 73.000000000000000000
+    OnClick = Button1Click
+  end
+  object Button5: TButton
+    Height = 44.000000000000000000
+    Position.X = 240.000000000000000000
+    Position.Y = 176.000000000000000000
+    TabOrder = 3
+    Text = '+'
+    Width = 73.000000000000000000
+    OnClick = Button5Click
+  end
+  object Button6: TButton
+    Height = 44.000000000000000000
+    Position.X = 160.000000000000000000
+    Position.Y = 224.000000000000000000
+    TabOrder = 19
+    Text = '.'
+    Width = 73.000000000000000000
+    OnClick = Button1Click
+  end
+  object Button7: TButton
+    Height = 44.000000000000000000
+    Position.X = 240.000000000000000000
+    Position.Y = 224.000000000000000000
+    TabOrder = 2
+    Text = '='
+    Width = 73.000000000000000000
+    OnClick = Button7Click
+  end
+  object Button8: TButton
+    Height = 44.000000000000000000
+    Position.Y = 128.000000000000000000
+    TabOrder = 17
+    Text = '4'
+    Width = 73.000000000000000000
+    OnClick = Button1Click
+  end
+  object Button9: TButton
+    Height = 44.000000000000000000
+    Position.X = 80.000000000000000000
+    Position.Y = 128.000000000000000000
+    TabOrder = 16
+    Text = '5'
+    Width = 73.000000000000000000
+    OnClick = Button1Click
+  end
+  object Button10: TButton
+    Height = 44.000000000000000000
+    Position.X = 160.000000000000000000
+    Position.Y = 128.000000000000000000
+    TabOrder = 14
+    Text = '6'
+    Width = 73.000000000000000000
+    OnClick = Button1Click
+  end
+  object Button11: TButton
+    Height = 44.000000000000000000
+    Position.X = 240.000000000000000000
+    Position.Y = 128.000000000000000000
+    TabOrder = 11
+    Text = '-'
+    Width = 73.000000000000000000
+    OnClick = Button5Click
+  end
+  object Button12: TButton
+    Height = 44.000000000000000000
+    Position.Y = 80.000000000000000000
+    TabOrder = 8
+    Text = '7'
+    Width = 73.000000000000000000
+    OnClick = Button1Click
+  end
+  object Button13: TButton
+    Height = 44.000000000000000000
+    Position.X = 80.000000000000000000
+    Position.Y = 80.000000000000000000
+    TabOrder = 15
+    Text = '8'
+    Width = 73.000000000000000000
+    OnClick = Button1Click
+  end
+  object Button14: TButton
+    Height = 44.000000000000000000
+    Position.X = 160.000000000000000000
+    Position.Y = 80.000000000000000000
+    TabOrder = 12
+    Text = '9'
+    Width = 73.000000000000000000
+    OnClick = Button1Click
+  end
+  object Button15: TButton
+    Height = 44.000000000000000000
+    Position.X = 240.000000000000000000
+    Position.Y = 80.000000000000000000
+    TabOrder = 9
+    Text = 'X'
+    Width = 73.000000000000000000
+    OnClick = Button5Click
+  end
+  object Button16: TButton
+    Height = 44.000000000000000000
+    Position.Y = 32.000000000000000000
+    TabOrder = 6
+    Text = 'C'
+    Width = 73.000000000000000000
+    OnClick = Button16Click
+  end
+  object Button17: TButton
+    Height = 44.000000000000000000
+    Position.X = 80.000000000000000000
+    Position.Y = 32.000000000000000000
+    TabOrder = 13
+    Text = '+/-'
+    Width = 73.000000000000000000
+    OnClick = Button17Click
+  end
+  object Button18: TButton
+    Height = 44.000000000000000000
+    Position.X = 160.000000000000000000
+    Position.Y = 32.000000000000000000
+    TabOrder = 10
+    Text = '%'
+    Width = 73.000000000000000000
+    OnClick = Button18Click
+  end
+  object Button19: TButton
+    Height = 44.000000000000000000
+    Position.X = 240.000000000000000000
+    Position.Y = 32.000000000000000000
+    TabOrder = 7
+    Text = '/'
+    Width = 73.000000000000000000
+    OnClick = Button5Click
+  end
+end
